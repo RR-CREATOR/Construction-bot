@@ -1,11 +1,26 @@
-# Construction-bot
-build, build and more build
+# 🤖 Construction-bot  
+**Build, build, and more build.**
 
+Construction-bot is a fully custom-built robotic system designed for automated construction tasks. With a 3D-printed chassis, a mobile gantry, and omnidirectional movement, it's built to lift, move, and place blocks with precision and stability.
 
-Its a bot build to construct.
-It has a 3d printed chassis and gantry and uses mechanum wheels for multi directional movement.
-The fork works using n20 motors and screw, which makes them open or close.
-The claws work using servo motors.
+## 🔧 Features
 
-The gantry moves up and down to lift or place blocks etc using a pulley system.
-It has a mpu 6050 gyroscope, based on which the speed of the pulley motors is regulated to allow it to stay balanced.
+- **Chassis & Gantry:** Fully 3D printed for lightweight, modular construction  
+- **Mobility:**  
+  - Mecanum wheels enable omnidirectional movement including forward, backward, strafing, and rotation  
+- **Fork Mechanism:**  
+  - Controlled by N20 gear motors using a screw-driven mechanism to open and close smoothly  
+- **Claw Mechanism:**  
+  - Operated by servo motors for accurate gripping and releasing of objects  
+- **Gantry Lift System:**  
+  - Vertical movement powered by a pulley system  
+  - Speed regulated in real-time based on balance feedback  
+- **Stabilization:**  
+  - An onboard MPU6050 gyroscope adjusts pulley motor speeds to keep the gantry balanced while lifting or lowering
+
+## 🛠 Tools Used
+
+- **Blender** – For 3D modeling and mechanical design  
+- **3D Printing** – Used to fabricate the chassis, forks, gantry, and mounting components  
+- **Arduino** – Controls motors, servos, and sensor integration  
+- **MPU6050** – Provides pitch and roll data for balance correction logic
