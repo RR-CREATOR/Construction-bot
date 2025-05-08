@@ -23,4 +23,8 @@ Construction-bot is a fully custom-built robotic system designed for automated c
 - **Blender** – For 3D modeling and mechanical design  
 - **3D Printing** – Used to fabricate the chassis, forks, gantry, and mounting components  
 - **Arduino** – Controls motors, servos, and sensor integration  
+
 - **MPU6050** – Provides pitch and roll data for balance correction logic
+
+## Img
+![bb](https://github.com/user-attachments/assets/de8d4e1c-0789-4f16-a5cd-110be2560d3e)
